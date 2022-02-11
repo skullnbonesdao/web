@@ -1,8 +1,0 @@
-.features {
-  background-color: var(--bs-purple);
-}
-
-#dark-frame:not(image) {
-  filter: invert(1%);
-}
-
