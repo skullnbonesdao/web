@@ -1,2 +1,2 @@
 # web
-main web repo of snb web content
+Main web repo of snb web content
