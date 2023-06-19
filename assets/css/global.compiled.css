@@ -132,8 +132,7 @@ body.star-atlas-dash {
   bottom: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.3);
-  z-index: 1010;
-  /* 10 less than .lightbox */
+  z-index: 1010; /* 10 less than .lightbox */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,7 +150,7 @@ body.star-atlas-dash {
   max-width: 100%;
   max-height: 100%;
   margin: 20px auto;
-  color: #505050;
+  color: rgb(80, 80, 80);
   border-radius: 3px;
   background-color: #faf9f8;
 }
@@ -194,7 +193,7 @@ body.star-atlas-dash {
 .svelte-app-main .table-header-usdc.descend,
 .svelte-app-main .table-header-atlas.ascend,
 .svelte-app-main .table-header-atlas.descend {
-  background-color: #f3f3f3;
+  background-color: rgb(243, 243, 243);
 }
 
 .svelte-app-main .cell-highlight:hover,
@@ -203,7 +202,7 @@ body.star-atlas-dash {
 .svelte-app-main .cell-basic.odd,
 .svelte-app-main .cell-image.odd,
 .svelte-app-main .market-number.odd {
-  background-color: #f0f0f0;
+  background-color: rgb(240, 240, 240);
 }
 
 .svelte-app-main .cell-highlight.sorted,
@@ -211,7 +210,7 @@ body.star-atlas-dash {
 .svelte-app-main .cell-basic.sorted,
 .svelte-app-main .ask-bid-grid.sorted,
 .svelte-app-main .market-number.sorted {
-  background-color: #f3f3f3;
+  background-color: rgb(243, 243, 243);
 }
 
 .svelte-app-main .cell-highlight.sorted.odd,
@@ -221,15 +220,15 @@ body.star-atlas-dash {
 .svelte-app-main .ask-bid-grid.sorted.odd,
 .svelte-app-main .cell-basic.sorted.odd,
 .svelte-app-main .market-number.sorted.odd {
-  background-color: #e8e8e8;
+  background-color: rgb(232, 232, 232);
 }
 
 .svelte-app-main .cell-highlight.sorted.odd:hover {
-  background-color: #dddddd;
+  background-color: rgb(221, 221, 221);
 }
 
 .svelte-app-main .cell-highlight:hover .title {
-  color: #1496f0;
+  color: rgb(20, 150, 240);
 }
 
 .svelte-app-main .lightbox .prior svg {

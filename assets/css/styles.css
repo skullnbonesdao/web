@@ -7,3 +7,10 @@
   font-weight: bold;
 }
 
+@media (min-width: 992px) {
+  .content-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
